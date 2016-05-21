@@ -4,7 +4,8 @@ class Player
   VERSION = "Default Ruby folding player"
 
   def bet_request(game_state)
-    11
+  	p game_state['players']
+    return rand(30) + 30
   end
 
   def showdown(game_state)
