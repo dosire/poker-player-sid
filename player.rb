@@ -34,7 +34,7 @@ class Player
 	    community_cards += card.values.first.to_i
 	  end
   	end
-  	output = rand(30) + my_cards
+  	output = 0 # rand(30) + my_cards
   	p "My cards: #{my_cards}"
   	p "Community cards: #{community_cards}"
   	p "Output: #{output}"
